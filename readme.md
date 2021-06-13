@@ -18,3 +18,5 @@ float lerp(float start, float end, float percent) {
 ```
 
 With the above code, whenever `lerp` is called the program will either query for what the value should be (if those parameters were not already encountered during program runtime) or will use the return value that matches the supplied arguments.
+
+The query will appear as `STUB float lerp(float, float, float)[start=0, end=1, percent=0.5]:` prompting for input.
