@@ -4,7 +4,7 @@
 #include <map>
 #include <sstream>
 
-#define STUB(...) _stubhandler::_stub(__COUNTER__, __PRETTY_FUNCTION__, _stubhandler::getargs(#__VA_ARGS__, __VA_ARGS__))
+#define STUB(...) return _stubhandler::_stub(__COUNTER__, __PRETTY_FUNCTION__, _stubhandler::getargs(#__VA_ARGS__, __VA_ARGS__))
 namespace _stubhandler {
     struct retval {
         std::string val;

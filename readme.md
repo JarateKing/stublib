@@ -13,7 +13,7 @@
 
 // function to stub out
 float lerp(float start, float end, float percent) {
-    return STUB(start, end, percent);
+    STUB(start, end, percent);
 }
 ```
 
